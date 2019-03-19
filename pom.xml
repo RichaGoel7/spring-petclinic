@@ -209,6 +209,20 @@
       </plugin>
     </plugins>
   </build>
+    
+    <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Internal Releases</name>
+			<url>http://localhost:8081/repository/richaproject/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Internal Snapshot Releases</name>
+			<url>>http://localhost:8081/repository/Richaproject_release/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 
   <!-- Apache 2 license -->
   <licenses>
