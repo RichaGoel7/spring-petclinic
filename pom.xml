@@ -210,23 +210,15 @@
     </plugins>
   </build>
     
-    <extensions>
-        <extension>
-            <groupId>org.apache.maven.wagon</groupId>
-            <artifactId>wagon-ssh</artifactId>
-            <version>2.10</version>
-        </extension>
-    </extensions>
-    
     <distributionManagement>
 		<repository>
-			<id>nexus</id>
-			<name>Internal Releases</name>
+			<id>Nexus_id</id>
+			<name>Nexus</name>
 			<url>http://localhost:8081/repository/richaproject/</url>
 		</repository>
 		<snapshotRepository>
-			<id>nexus</id>
-			<name>Internal Snapshot Releases</name>
+			<id>Nexus_id</id>
+			<name>Nexus</name>
 			<url>>http://localhost:8081/repository/Richaproject_release/</url>
 		</snapshotRepository>
 	</distributionManagement>
@@ -242,16 +234,16 @@
 
   <repositories>
     <repository>
-      <id>spring-snapshots</id>
-      <name>Spring Snapshots</name>
+      <id>Nexus_id</id>
+      <name>Nexus</name>
       <url>http://localhost:8081/repository/richaproject/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
     </repository>
     <repository>
-      <id>spring-milestones</id>
-      <name>Spring Milestones</name>
+      <id>Nexus_id</id>
+      <name>Nexus</name>
       <url>http://localhost:8081/repository/Richaproject_release/</url>
       <snapshots>
         <enabled>false</enabled>
@@ -261,16 +253,16 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>spring-snapshots</id>
-      <name>Spring Snapshots</name>
+      <id>Nexus_id</id>
+      <name>Nexus</name>
       <url>http://localhost:8081/repository/richaproject/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
     </pluginRepository>
     <pluginRepository>
-      <id>spring-milestones</id>
-      <name>Spring Milestones</name>
+      <id>Nexus_id</id>
+      <name>Nexus</name>
       <url>http://localhost:8081/repository/Richaproject_release/</url>
       <snapshots>
         <enabled>false</enabled>
