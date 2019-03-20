@@ -212,12 +212,12 @@
     
     <distributionManagement>
 		<repository>
-			<id>Nexus_id</id>
+			<id>nexus_snapshot</id>
 			<name>Nexus</name>
 			<url>http://localhost:8081/repository/richaproject/</url>
 		</repository>
 		<snapshotRepository>
-			<id>Nexus_id</id>
+			<id>nexus_release</id>
 			<name>Nexus</name>
 			<url>>http://localhost:8081/repository/Richaproject_release/</url>
 		</snapshotRepository>
@@ -234,7 +234,7 @@
 
   <repositories>
     <repository>
-      <id>Nexus_id</id>
+      <id>nexus_snapshot</id>
       <name>Nexus</name>
       <url>http://localhost:8081/repository/richaproject/</url>
       <snapshots>
@@ -242,7 +242,7 @@
       </snapshots>
     </repository>
     <repository>
-      <id>Nexus_id</id>
+      <id>nexus_release</id>
       <name>Nexus</name>
       <url>http://localhost:8081/repository/Richaproject_release/</url>
       <snapshots>
@@ -253,7 +253,7 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>Nexus_id</id>
+      <id>nexus_snapshot</id>
       <name>Nexus</name>
       <url>http://localhost:8081/repository/richaproject/</url>
       <snapshots>
@@ -261,7 +261,7 @@
       </snapshots>
     </pluginRepository>
     <pluginRepository>
-      <id>Nexus_id</id>
+      <id>nexus_release</id>
       <name>Nexus</name>
       <url>http://localhost:8081/repository/Richaproject_release/</url>
       <snapshots>
